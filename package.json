@@ -8,6 +8,7 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
+    "@azure/cosmos": "^4.9.2",
     "@azure/data-tables": "^13.3.2",
     "@azure/functions": "^4.0.0",
     "nodemailer": "^8.0.5"
