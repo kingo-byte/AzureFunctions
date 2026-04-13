@@ -2,7 +2,7 @@
   "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "src/functions/*.js",
+  "main": "src/functions/**/*.js",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
@@ -11,6 +11,7 @@
     "@azure/cosmos": "^4.9.2",
     "@azure/data-tables": "^13.3.2",
     "@azure/functions": "^4.0.0",
+    "durable-functions": "^3.0.1",
     "nodemailer": "^8.0.5"
   },
   "devDependencies": {
